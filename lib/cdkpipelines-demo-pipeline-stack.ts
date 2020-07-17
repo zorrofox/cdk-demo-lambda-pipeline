@@ -41,6 +41,6 @@ export class CdkpipelinesDemoPipelineStack extends Stack {
 
     // This is where we add the application stages
     // ...
-    //pipeline.addApplicationStage(new CdkpipelinesDemoStage(this, 'PreProd'));
+    pipeline.addApplicationStage(new CdkpipelinesDemoStage(this, 'PreProd'));
   }
 }
